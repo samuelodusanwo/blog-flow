@@ -1,0 +1,142 @@
+.single-post {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #e9ecef;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  color: #6c757d;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #007bff;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 1.5rem;
+}
+
+.post-title {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.meta-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.post-author {
+  font-weight: 600;
+  color: #495057;
+}
+
+.post-date,
+.post-updated {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.post-category-badge {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.post-content {
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: #495057;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content h2 {
+  color: #343a40;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.post-content h3 {
+  color: #343a40;
+  margin: 1.25rem 0 0.75rem 0;
+}
+
+.post-content ul, .post-content ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-footer {
+  border-top: 1px solid #e9ecef;
+  padding-top: 1.5rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .single-post {
+    margin: 0 1rem;
+    padding: 1.5rem;
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+  }
+  
+  .post-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .post-actions {
+    flex-direction: column;
+  }
+  
+  .post-actions .btn {
+    text-align: center;
+  }
+}
